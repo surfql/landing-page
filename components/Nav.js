@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <div className="py-4 px-8 bg-gray-700 text-white flex justify-between">
       <div>
-        <Image src={"/surfql.png"} width="65" height="65" />
+        <Image src={"/surfql.png"} alt="Logo" width="65" height="65" />
         <span className="text-3xl ml-3">SurfQL</span>
       </div>
 
