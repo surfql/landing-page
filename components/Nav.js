@@ -11,15 +11,15 @@ export default function Nav() {
       </div>
 
       <div className="flex items-center">
-        <a className="btn ml-4 text-lg py-1 px-1">
+        <div className="btn ml-4 text-lg py-1 px-1">
           <Link href="">LinkedIn</Link>
-        </a>
-        <a className="btn ml-4 text-lg py-1 px-1">
+        </div>
+        <div className="btn ml-4 text-lg py-1 px-1">
           <Link href="">GitHub</Link>
-        </a>
-        <a className="btn ml-4 text-lg py-1 px-1">
+        </div>
+        <div className="btn ml-4 text-lg py-1 px-1">
           <Link href="">Download VSCode Extension</Link>
-        </a>
+        </div>
       </div>
     </div>
   );
