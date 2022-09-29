@@ -7,11 +7,13 @@ export default function Teams() {
     <div className="p-20 text-center">
       <div>
         <h1 className="text-3xl">Meet the Team</h1>
+        <div className="w-60"></div>
         <ul className="flex flex-row justify-center items-end space-y-9 space-x-9">
           <li>
             <Image
               alt="team picture"
-              src={"../placeholder.png"}
+              className="object-fit rounded-xl"
+              src={"../picEthan.png"}
               width={"100%"}
               height={"100%"}
             />
@@ -25,7 +27,8 @@ export default function Teams() {
           <li>
             <Image
               alt="team picture"
-              src={"../placeholder.png"}
+              className="w-24 object-fit rounded-xl"
+              src={"../picTristan.png"}
               width={"100%"}
               height={"100%"}
             />
@@ -37,12 +40,15 @@ export default function Teams() {
             </p>
           </li>
           <li>
-            <Image
-              alt="team picture"
-              src={"../placeholder.png"}
-              width={"100%"}
-              height={"100%"}
-            />
+            <div className="w-22">
+              <Image
+                className="object-fit rounded-xl"
+                alt="team picture"
+                src={"../picJoy.png"}
+                width={"100%"}
+                height={"100%"}
+              />
+            </div>
             <h3>Joy Zhang</h3>
             <p>
               Github
@@ -53,7 +59,8 @@ export default function Teams() {
           <li>
             <Image
               alt="team picture"
-              src={"../placeholder.png"}
+              className="object-fit rounded-xl"
+              src={"../picSteve.png"}
               width={"100%"}
               height={"100%"}
             />
@@ -67,7 +74,8 @@ export default function Teams() {
           <li>
             <Image
               alt="team picture"
-              src={"../placeholder.png"}
+              className="object-fit rounded-xl"
+              src={"../picDwayne.png"}
               width={"100%"}
               height={"100%"}
             />
@@ -80,6 +88,7 @@ export default function Teams() {
           </li>
         </ul>
       </div>
+      <p className="p-10">Copyright 2022 All Rights Reserved.</p>
     </div>
   );
 }
