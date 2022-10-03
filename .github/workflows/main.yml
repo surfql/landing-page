@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install Node
         uses: actions/setup-node@v1
@@ -26,9 +26,9 @@ jobs:
         run: npm i
 
       - name: Run Cypress
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v2.9.7
         with:
-          start: npm run cypress:open
+          start: npm start
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
