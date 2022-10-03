@@ -11,7 +11,6 @@ export default function Teams() {
         <ul className="flex flex-row justify-center items-end space-y-9 space-x-9">
           <li>
             <Image
-              alt="team picture"
               className="object-fit rounded-xl"
               src={"../picEthan.png"}
               width={"100%"}

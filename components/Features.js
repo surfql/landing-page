@@ -11,7 +11,7 @@ export default function Features() {
         </span>
         <Image
           className="max-w-sm"
-          src={"/ss1.png"}
+          src={"/visualizer.gif"}
           alt="Autocomplete Toolbar "
           width="1186"
           height="418"
@@ -23,10 +23,10 @@ export default function Features() {
           query
         </span>
         <Image
-          src={"/ss2.png"}
+          src={"/visualizer.gif"}
           alt="Schema Visualizer"
-          width="632"
-          height="584"
+          width="600"
+          height="678"
         />
       </div>
     </div>
