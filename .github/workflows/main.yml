@@ -10,26 +10,6 @@ on:
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  cypress_e2e:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Install Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14
-
-      - name: Install Dependencies
-        run: npm i
-
-      - name: Run Cypress
-        uses: cypress-io/github-action@v2.9.7
-        with:
-          start: npm start
-  # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
       runs-on: ubuntu-latest
