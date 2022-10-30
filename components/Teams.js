@@ -1,91 +1,42 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import TeammateData from "../data/teammates";
 export default function Teams() {
   return (
     <div className="p-20 text-center">
       <div>
-        <h1 className="text-3xl">Meet the Team</h1>
-        <div className="w-60"></div>
+        <hr className="bg-slate-600 mb-10" />
+        <h1 className="text-5xl font-bold">Meet the Team</h1>
         <ul className="flex flex-row justify-center items-end space-y-9 space-x-9">
-          <li>
-            <Image
-              alt="team picture"
-              className="object-fit rounded-xl"
-              src={"../picEthan.png"}
-              width={"100%"}
-              height={"100%"}
-            />
-            <h3>Ethan McRae</h3>
-            <p>
-              Github
-              <br />
-              LinkedIn
-            </p>
-          </li>
-          <li>
-            <Image
-              alt="team picture"
-              className="w-24 object-fit rounded-xl"
-              src={"../picTristan.png"}
-              width={"100%"}
-              height={"100%"}
-            />
-            <h3>Tristan Onfroy</h3>
-            <p>
-              Github
-              <br />
-              LinkedIn
-            </p>
-          </li>
-          <li>
-            <div className="w-22">
+          {TeammateData.map((contributor) => (
+            <li
+              key="{contributor.id}"
+              className="bg-slate-100 bg-gradient-to-t from-sky-600 to-indigo-600 p-8 rounded-2xl drop-shadow-lg"
+            >
               <Image
-                className="object-fit rounded-xl"
                 alt="team picture"
-                src={"../picJoy.png"}
-                width={"100%"}
-                height={"100%"}
+                className="object-fit rounded-md mb-4"
+                src={contributor.pic}
+                width={"222%"}
+                height={"150%"}
               />
-            </div>
-            <h3>Joy Zhang</h3>
-            <p>
-              Github
-              <br />
-              LinkedIn
-            </p>
-          </li>
-          <li>
-            <Image
-              alt="team picture"
-              className="object-fit rounded-xl"
-              src={"../picSteve.png"}
-              width={"100%"}
-              height={"100%"}
-            />
-            <h3>Steve B</h3>
-            <p>
-              Github
-              <br />
-              LinkedIn
-            </p>
-          </li>
-          <li>
-            <Image
-              alt="team picture"
-              className="object-fit rounded-xl"
-              src={"../picDwayne.png"}
-              width={"100%"}
-              height={"100%"}
-            />
-            <h3>Dwayne Neckles</h3>
-            <p>
-              Github
-              <br />
-              LinkedIn
-            </p>
-          </li>
+              <h3 className="font-bold text-yellow-100 text-lg mb-3">
+                {contributor.name}
+              </h3>
+              <h3 className="text-lg text-blue-200 mb-2">Software Engineer</h3>
+              <p className="text-cyan-100">
+                <a href={contributor.github}>
+                  Github <i aria-hidden="true" className="fab fa-github"></i>
+                </a>
+                <br />
+                <a href={contributor.linkedin}>
+                  LinkedIn{" "}
+                  <i aria-hidden="true" className="fab fa-linkedin"></i>
+                </a>
+              </p>
+            </li>
+          ))}
         </ul>
       </div>
       <p className="p-10">Copyright 2022 All Rights Reserved.</p>

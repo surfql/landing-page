@@ -13,8 +13,8 @@ export default function Features() {
           className="max-w-sm"
           src={"/autocomplete.gif"}
           alt="Autocomplete Toolbar"
-          width="600"
-          height="495"
+          width="571"
+          height="361"
         />
       </div>
       <div className="max-w-screen-lg md:flex py-10">
