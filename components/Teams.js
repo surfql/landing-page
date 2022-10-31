@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Teams() {
   return (
-    <div className="p-20 text-center">
+    <div className="p-20 text-center text-white bg-[#141515]">
       <div>
         <h1 className="text-3xl">Meet the Team</h1>
         <div className="w-60"></div>

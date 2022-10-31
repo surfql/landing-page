@@ -21,32 +21,33 @@ export default function FirstSection() {
           </p>
         </div>
       </div>
-      <h1 class="text-5xl text-white font-abc">Why teams need SurfQL</h1>
-      <div class="flex flex-row justify-center items-end  space-x-9">
-        <div class="bg-gradient-to-bl from-[#032a267f] to-[#181919] w-96 h-52 my-16 rounded-xl shadow-2x border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
-          <div class="flex mt-5 -mb-6 ml-5">
+      <h1 className="text-5xl text-white font-abc">Why teams need SurfQL</h1>
+      
+      <div className="flex flex-row justify-center items-end  space-x-9">
+        <div className="bg-gradient-to-bl from-[#032a267f] to-[#181919] w-96 h-52 my-16 rounded-xl shadow-2x border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+          <div className="flex mt-5 -mb-6 ml-5">
             <Image src={"/speed.png"} alt="Logo" width="50" height="50" />
           </div>
-          <h1 class="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
+          <h1 className="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
             Speed
           </h1>
-          <p class="font-abc ml-8  text-left text-sm  text-white">
+          <p className="font-abc ml-8  text-left text-sm  text-white">
             Save time by writing GraphQL queries more quickly
           </p>
         </div>
-        <div class="bg-gradient-to-bl from-[#032a2692] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
-          <div class="flex mt-5 -mb-6 ml-5">
+        <div className="bg-gradient-to-bl from-[#032a2692] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+          <div className="flex mt-5 -mb-6 ml-5">
             <Image src={"/efficiency.png"} alt="Logo" width="50" height="50" />
           </div>
-          <h1 class="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
+          <h1 className="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
             Efficiency
           </h1>
-          <p class="font-abc ml-8  text-left text-sm  text-white">
+          <p className="font-abc ml-8  text-left text-sm  text-white">
             Visualize your schema to prevent invalid query structures
           </p>
         </div>
-        <div class="bg-gradient-to-bl from-[#032a267a] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
-          <div class="flex mt-5 -mb-6 ml-5">
+        <div className="bg-gradient-to-bl from-[#032a267a] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+          <div className="flex mt-5 -mb-6 ml-5">
             <Image
               src={"/productivity.png"}
               alt="Logo"
@@ -54,10 +55,10 @@ export default function FirstSection() {
               height="50"
             />
           </div>
-          <h1 class="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
+          <h1 className="font-abc indent-8 mb-5 text-left text-2xl text-[#5fefd0] my-10">
             Productivity
           </h1>
-          <p class="font-abc ml-8  text-left text-sm  text-white">
+          <p className="font-abc ml-8  text-left text-sm  text-white">
             Reduced friction between the front-end and back-end for development
             teams
           </p>

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div className="absolute w-full py-4 px-8 pl-20 font-abc text-white flex justify-between">
-      <div>
+      <div className="sticky">
         <Image src={"/surfql.png"} alt="Logo" width="65" height="65" />
         <span className="text-3xl ml-3">SurfQL</span>
       </div>
