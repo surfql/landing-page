@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ProblemsItSolves() {
   return (
-    <div className="flex flex-row justify-center p-40 text-3xl text-center">
+    <div className="flex flex-row justify-center p-40 text-3xl text-white text-center bg-[#141515]">
       <h1>What Problem Does It Solve?</h1>
 
       <p className="flex max-w-xl text-xl mx-4">

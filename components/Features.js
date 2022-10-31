@@ -3,30 +3,31 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <div className="flex flex-col content-center items-center">
-      <div className="max-w-screen-lg md:flex">
-        <span className="text-3xl ml-3">
+    <div className="flex flex-col items-center pt-[150px] bg-[#141515]">
+      <div class="max-w-screen-lg object-contain md:flex pb-[150px]">
+        <Image
+          src={"/codeCompletion.gif"}
+          alt="Autocomplete Toolbar"
+          width="5000"
+          height="1000"
+          objectFit={"contain"}
+        />
+        <span class="ml-[100px] text-5xl text-white">
           Autocomplete Toolbar suggests the next query type to help you write
           code faster and minimize mistakes
         </span>
-        <Image
-          className="max-w-sm"
-          src={"/ss1.png"}
-          alt="Autocomplete Toolbar "
-          width="1186"
-          height="418"
-        />
       </div>
-      <div className="max-w-screen-lg md:flex">
-        <span className="text-3xl ml-3">
+      <div class="max-w-screen-lg md:flex ">
+        <span class="mr-[100px] -ml-10 text-5xl text-left text-white">
           The schema visualizer gives the developer visibility to data they can
           query
         </span>
         <Image
-          src={"/ss2.png"}
+          src={"/visualizer.gif"}
           alt="Schema Visualizer"
-          width="632"
-          height="584"
+          width="4500"
+          height="2500"
+          objectFit={"contain"}
         />
       </div>
     </div>

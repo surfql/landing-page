@@ -5,5 +5,16 @@
 @tailwind utilities;
 
 .btn{
-  @apply font-bold cursor-pointer rounded-md border-slate-300 border-4
+  @apply font-bold cursor-pointer
+}
+
+
+.undrlne{
+  @apply relative
+}
+.undrlne::after{
+  @apply content-[''] bg-[#5fefd0] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+}
+.undrlne:hover::after{
+  @apply w-[100%]
 }

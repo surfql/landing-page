@@ -8,12 +8,17 @@ import Teams from "./Teams";
 export default function Layout({ children }) {
   return (
     <div>
-      <Nav />
-      <FirstSection />
-      <Features />
-      <ProblemsItSolves />
-      <Teams />
-      {children}
+        <div>
+          <Nav />
+          <FirstSection />
+          <Features />
+          <ProblemsItSolves />
+          <Teams />
+          {children}
+        </div>
     </div>
   );
 }
+
+// ""
+// gradient-to-tl from-[#014351] to-
