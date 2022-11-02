@@ -4,9 +4,10 @@ import styles from "../styles/Home.module.css";
 
 export default function Features() {
   return (
-    <div className="flex flex-col items-center pt-[150px] bg-[#141515]" >
-        <img src={"./bkgdshapes.png"} className="w-full h-full absolute mix-blend-overlay"/>
-        
+    <div className="flex flex-col items-center pt-[150px] bg-[#141515]">
+      <picture className="w-full h-full absolute mix-blend-overlay">
+        <img src={"./bkgdshapes.png"} />
+      </picture>
       <div className="max-w-screen-lg object-contain md:flex pb-[150px] z-10">
         <Image
           src={"/newCodeCompletion.gif"}
@@ -31,8 +32,8 @@ export default function Features() {
           width="4500"
           height="2500"
           objectFit={"contain"}
-                  />
+        />
       </div>
-      </div>
+    </div>
   );
 }
