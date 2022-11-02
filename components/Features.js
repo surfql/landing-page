@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 export default function Features() {
   return (
     <div className="flex flex-col items-center pt-[150px] bg-[#141515]" >
-        <img src={"./bkgdshapes.png"} className="w-full h-full absolute mix-blend-overlay"/>
+        <img src={"./bkgdshapes.png"} className="w-full h-full absolute mix-blend-overlay object-cover"/>
         
       <div className="max-w-screen-lg object-contain md:flex pb-[150px] z-10">
         <Image
