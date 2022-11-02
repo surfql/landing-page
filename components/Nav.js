@@ -12,14 +12,17 @@ export default function Nav() {
 
       <div className="flex items-center pr-10">
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
-          <Link href="">LinkedIn</Link>
+          <Link href="">
+            <a target="_blank">LinkedIn</a>
+            </Link>
         </div>
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
-          <Link href="https://github.com/oslabs-beta/SurfQL">GitHub</Link>
+          <Link href="https://github.com/oslabs-beta/SurfQL">
+            <a target="_blank">Github</a></Link>
         </div>
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
           <Link href="https://marketplace.visualstudio.com/items?itemName=SurfQL.surfql">
-            Download VSCode Extension
+            <a target="_blank">Download VS Code Extension</a>
           </Link>
         </div>
       </div>
