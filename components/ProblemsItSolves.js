@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function ProblemsItSolves() {
   return (
     <div className="bg-[#141515] text-white">
-      <div className="flex justify-center flex-row p-40 text-3xl  text-center ">
+      <div className="flex justify-center flex-row p-40 text-4xl text-center ">
         <h1>What Problem Does It Solve?</h1>
 
-        <p className="flex max-w-xl text-xl mx-4">
+        <p className="flex max-w-xl text-xl ml-10">
           GraphQL is organized in terms of schema and type system and learning
           curve is steep. Currently Software engineers have limited tools to
           understand schema or write queries within their IDE.

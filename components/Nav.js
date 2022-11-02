@@ -15,10 +15,12 @@ export default function Nav() {
           <Link href="">LinkedIn</Link>
         </div>
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
-          <Link href="">GitHub</Link>
+          <Link href="https://github.com/oslabs-beta/SurfQL">GitHub</Link>
         </div>
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
-          <Link href="">Download VSCode Extension</Link>
+          <Link href="https://marketplace.visualstudio.com/items?itemName=SurfQL.surfql">
+            Download VSCode Extension
+          </Link>
         </div>
       </div>
     </div>

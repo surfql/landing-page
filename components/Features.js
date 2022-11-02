@@ -9,7 +9,7 @@ export default function Features() {
         
       <div className="max-w-screen-lg object-contain md:flex pb-[150px] z-10">
         <Image
-          src={"/codeCompletion.gif"}
+          src={"/newCodeCompletion.gif"}
           alt="Autocomplete Toolbar"
           width="5000"
           height="1000"
@@ -26,7 +26,7 @@ export default function Features() {
           query
         </span>
         <Image
-          src={"/visualizer.gif"}
+          src={"/newVisualizer.gif"}
           alt="Schema Visualizer"
           width="4500"
           height="2500"
