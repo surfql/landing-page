@@ -17,6 +17,7 @@ export default function FirstSection() {
           className="bg-[#5fefd0] hover:bg-white font-bold px-8 py-3 rounded-xl  text-black"
           href="https://github.com/oslabs-beta/SurfQL"
           target="_blank"
+          rel="noreferrer"
         >
           Contribute
         </a>
