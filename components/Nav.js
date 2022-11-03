@@ -33,6 +33,16 @@ export default function Nav() {
           </Link>
         </div>
       </div>
+      <div className="fixed  bottom-0 right-0 p-4 z-10">
+      <footer className=" p-4 w-auto rounded-lg text-2xl bg-[#5fefd0] text-black hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white ">
+        <Link href="https://marketplace.visualstudio.com/items?itemName=SurfQL.surfql">
+          <a target="_blank" rel="noreferrer">
+          Download the extension
+          </a>
+        </Link>
+       
+      </footer>
+      </div>  
     </div>
   );
 }
