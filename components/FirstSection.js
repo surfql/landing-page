@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import video from "../public/SurfQL.mp4";
+import ReactPlayer from "react-player";
 import styles from "../styles/Home.module.css";
 
 export default function FirstSection() {
@@ -28,6 +30,7 @@ export default function FirstSection() {
             queries efficiently with our code completion tool-tip and Schema
             visualizer to present each property of the schema tree.
           </p>
+          <video src={video} loop muted />
         </div>
       </div>
       <h1 className="text-5xl text-white font-abc">Why teams need SurfQL</h1>
