@@ -29,7 +29,6 @@ export default function FirstSection() {
             queries efficiently with our code completion tool-tip and Schema
             visualizer to present each property of the schema tree.
           </p>
-          <video src={video} loop muted />
         </div>
       </div>
       <h1 className="text-5xl text-white font-abc">Why teams need SurfQL</h1>
