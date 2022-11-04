@@ -1,7 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import ReactPlayer from "react-player";
 import styles from "../styles/Home.module.css";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player/lazy"), {
+  ssr: false,
+});
 
 export default function FirstSection() {
   return (
@@ -22,16 +25,24 @@ export default function FirstSection() {
         >
           Contribute
         </a>
-        <div className="flex justify-center text-center mt-20">
-          <p className="font-abc text-2xl text-center text-white max-w-screen-lg mb-28 font-normal">
-            SurfQL is an open source VS Code extension for GraphQL that was
-            built with front-end developers in mind. We make it easy to write
-            queries efficiently with our code completion tool-tip and Schema
-            visualizer to present each property of the schema tree.
-          </p>
+        <div className="mt-20 text-white text-2xl px-48">
+          SurfQL is an open source VS Code extension for GraphQL that was built
+          with front-end developers in mind. We make it easy to write queries
+          efficiently with our code completion tool-tip and Schema visualizer to
+          present each property of the schema tree.
+        </div>
+        <div className="flex justify-center mt-20 mb-20c">
+          <ReactPlayer
+            width={"90%"}
+            height={"100%"}
+            controls={true}
+            muted
+            playing={true}
+            url="../SurfQL.mp4"
+          />
         </div>
       </div>
-      <h1 className="text-5xl text-white font-abc">Why teams need SurfQL</h1>
+      <h1 className="text-5xl font-abc text-white">Why teams need SurfQL</h1>
 
       <div className="flex flex-row justify-center items-end  space-x-9">
         <div className="bg-gradient-to-bl from-[#032a267f] to-[#181919] w-96 h-52 my-16 rounded-xl shadow-2x border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
