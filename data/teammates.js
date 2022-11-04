@@ -16,10 +16,10 @@ export default [
   },
   {
     id: 3,
-    name: "Joy Zhang",
+    name: "Yanqi Joy Zhang",
     pic: "../piczoomJoy.png",
     github: "https://github.com/jzhang2018p",
-    linkedin: "https://www.linkedin.com/in/yanqi-zhang-72a41b50/",
+    linkedin: "https://www.linkedin.com/in/yanqi-joy-zhang-72a41b50/",
   },
   {
     id: 4,
