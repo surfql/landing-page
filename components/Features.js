@@ -21,7 +21,7 @@ export default function Features() {
         </span>
       </div>
       <div className="max-w-screen-lg  md:flex">
-        <span className="mr-[100px] -ml-10 text-5xl text-left text-white">
+        <span className="mr-[100px] text-5xl text-left text-white">
           The schema visualizer gives the developer visibility to data they can
           query
         </span>
