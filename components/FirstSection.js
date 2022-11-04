@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import video from "../public/SurfQL.mp4";
 import ReactPlayer from "react-player";
 import styles from "../styles/Home.module.css";
 
