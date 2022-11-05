@@ -16,19 +16,19 @@ export default function ProblemsItSolves() {
       <div className="flex justify-center">
         <ul className="gap-3 mr-1 sm:mr-20">
           <h1 className="text-2xl sm:text-5xl mb-1 sm:mb-10">With SurfQL</h1>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-4 mt-2 sm:mt-10  text-md sm:text-3xl">
               Code-Completion Suggestions
             </h1>
             <Image
               src={"./check.png"}
               alt="check"
-              width="100"
-              height="100"
-              objectFit={"contain"}
+              width="75"
+              height="75"
+              objectFit={"fill"}
             />
           </li>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-4 mt-2 sm:mt-10 text-md sm:text-3xl">
               Visual Schema
             </h1>
@@ -40,7 +40,7 @@ export default function ProblemsItSolves() {
               objectFit={"contain"}
             />
           </li>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-4 mt-2 sm:mt-10 text-md sm:text-3xl">
               Multi-Line Parsing
             </h1>
@@ -52,7 +52,7 @@ export default function ProblemsItSolves() {
               objectFit={"contain"}
             />
           </li>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-0 sm:mr-4 mt-2 sm:mt-10  text-md sm:text-3xl">
               Enhanced Accuracy <br className="sm:hidden" />
               for Queries
@@ -69,7 +69,7 @@ export default function ProblemsItSolves() {
 
         <ul className="gap-3 ">
           <h1 className="text-2xl sm:text-5xl mb-1 sm:mb-10">Without SurfQL</h1>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-0 sm:mr-4 mt-8  text-md sm:text-3xl">
               Manual Typing of Queries
             </h1>
@@ -81,7 +81,7 @@ export default function ProblemsItSolves() {
               objectFit={"contain"}
             />
           </li>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-0 sm:mr-4 mt-8  text-md sm:text-3xl">
               Glancing Back at Schema
             </h1>
@@ -93,7 +93,7 @@ export default function ProblemsItSolves() {
               objectFit={"contain"}
             />
           </li>
-          <li className="flex">
+          <li className="flex justify-between">
             <h1 className="mr-0 sm:mr-4 mt-8  text-md sm:text-3xl">
               Prone to Mistakes
             </h1>

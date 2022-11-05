@@ -18,15 +18,17 @@ export default function Features() {
           height="2500"
           objectFit={"contain"}
         />
-        <span className="sm:ml-[100px] text-xl sm:text-5xl text-white text-left">
-          Autocomplete Toolbar suggests the next query type to help you write
-          code faster and minimize mistakes
+        <span className="sm:ml-[100px] text-xl sm:text-4xl text-white text-left">
+          SurfQL IntelliSense shows the available fields as you build up your
+          query and provides completion template plus helper info to reduce the
+          errors in your queries.
         </span>
       </div>
-      <div className="max-w-screen-lg  md:flex">
-        <span className="mr-[100px]  text-xl sm:text-5xl sm:text-left text-white">
-          The schema visualizer gives the developer visibility to data they can
-          query
+      <div className="max-w-screen-lg md:flex">
+        <span className="mr-[100px] text-xl sm:text-3xl sm:text-left text-white">
+          SurfQL visualizer presents the pre-defined GraphQL type objects and
+          the hierarchy of the schema file, reducing the overhead to comprehend
+          the relationship of the objects.
         </span>
         <Image
           src={"/newVisualizer.gif"}
