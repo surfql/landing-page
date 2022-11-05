@@ -25,7 +25,7 @@ export default function FirstSection() {
         >
           Contribute
         </a>
-        <div className="mt-20 text-white text-2xl px-48">
+        <div className="mt-20 text-white text-2xl m:px-48">
           SurfQL is an open source VS Code extension for GraphQL that was built
           with front-end developers in mind. We make it easy to write queries
           efficiently with our code completion tool-tip and Schema visualizer to
@@ -37,15 +37,14 @@ export default function FirstSection() {
             height={"100%"}
             controls={true}
             muted
-            playing={true}
             url="../SurfQL.mp4"
           />
         </div>
       </div>
       <h1 className="text-5xl font-abc text-white">Why teams need SurfQL</h1>
 
-      <div className="flex flex-row justify-center items-end  space-x-9">
-        <div className="bg-gradient-to-bl from-[#032a267f] to-[#181919] w-96 h-52 my-16 rounded-xl shadow-2x border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+      <div className="flex flex-row flex-wrap justify-center items-end  lg:space-x-9">
+        <div className="bg-gradient-to-bl from-[#032a267f] to-[#181919]  my-2 lg:my-16 rounded-xl shadow-2x border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
           <div className="flex mt-5 -mb-6 ml-5">
             <Image src={"/speed.png"} alt="Logo" width="50" height="50" />
           </div>
@@ -56,7 +55,7 @@ export default function FirstSection() {
             Save time by writing GraphQL queries more quickly
           </p>
         </div>
-        <div className="bg-gradient-to-bl from-[#032a2692] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+        <div className="bg-gradient-to-bl from-[#032a2692] to-[#181919] w-96 sm:h-52 my-2 lg:my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
           <div className="flex mt-5 -mb-6 ml-5">
             <Image src={"/efficiency.png"} alt="Logo" width="50" height="50" />
           </div>
@@ -67,7 +66,7 @@ export default function FirstSection() {
             Visualize your schema to prevent invalid query structures
           </p>
         </div>
-        <div className="bg-gradient-to-bl from-[#032a267a] to-[#181919] w-96 h-52 my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
+        <div className="bg-gradient-to-bl from-[#032a267a] to-[#181919] w-96 h-52 my-2 lg:my-16  rounded-xl shadow-2xl border-2 border-[#181919] hover:border-[#5fefd0] duration-300">
           <div className="flex mt-5 -mb-6 ml-5">
             <Image
               src={"/productivity.png"}

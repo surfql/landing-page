@@ -10,7 +10,7 @@ export default function Nav() {
         <span className="text-3xl ml-3">SurfQL</span>
       </div>
 
-      <div className="flex items-center pr-10">
+      <div className="flex flex-wrap items-center pr-10">
         <div className="btn ml-4 text-lg py-1 px-1 undrlne">
           <Link href="https://www.linkedin.com/company/89348671/">
             <a target="_blank" rel="noreferrer">
@@ -33,8 +33,8 @@ export default function Nav() {
           </Link>
         </div>
       </div>
-      <div className="fixed  bottom-0 right-0 p-4 z-10">
-        <footer className=" p-4 w-auto rounded-lg text-2xl bg-[#5fefd0] text-black hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white ">
+      <div className="fixed bottom-0 sm:right-0 right-10 p-4 z-10">
+        <footer className="p-4 w-auto rounded-lg text-xl lg:text-2xl bg-[#5fefd0] text-black hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white ">
           <Link href="https://marketplace.visualstudio.com/items?itemName=SurfQL.surfql">
             <a target="_blank" rel="noreferrer">
               Download the extension

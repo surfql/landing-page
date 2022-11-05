@@ -8,7 +8,7 @@ export default function Teams() {
       <div>
         <hr className="bg-slate-600 mb-10" />
         <h1 className="text-5xl font-bold">Meet the Team</h1>
-        <ul className="flex flex-row justify-center items-end space-y-9 space-x-9">
+        <ul className="flex flex-row flex-wrap justify-center items-end space-y-9 space-x-9">
           {TeammateData.map((contributor) => (
             <li
               key="{contributor.id}"
